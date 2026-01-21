@@ -12,4 +12,7 @@ i = n1 * 9
 j = n1 * 10
 
 print("A tabuada do número inserido é:")
-print("{}\n{}\n{}\n{}\n{}\n{}\n{}\n{}\n{}\n{}".format(a, b, c, d, e, f, g, h, i, j,))
+print(f"{n1} X  1 = {a}\n{n1} X  2 = {b}\n{n1} X  3 = {c}\n{n1} X  4 = {d}\n{n1} X  5 = {e}\n{n1} X  6 = {f}\n{n1} X  7 = {g}\n{n1} X  8 = {h}\n{n1} X  9 = {i}\n{n1} X 10 = {j}")
+# pode ser feito dessa forma:
+# print(f"{n1} X {1} = {n1*1}")
+# print(f"{n1} X {2} = {n1*2}")
