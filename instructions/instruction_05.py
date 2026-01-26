@@ -31,4 +31,21 @@
 # '-'.join(frase) junta a str colocando - como espaçamento das palavras
 
 frase = "Aprendizado Python"
+print(frase[3:12])
+print(frase[2:])
+print(frase[1:12:2])
+print(frase.upper())
+print(frase.lower())
+print(frase.strip())
+print(frase.count('o'))
+print(frase.upper().count('A'))
 print(len(frase))
+print(frase.find('ado'))
+print(frase.replace('Aprendizado', 'Ensinamento'))
+print('Python' in frase)
+print(frase.find('Python'))
+print(frase.lower().find('aprendizado'))
+dividido = (frase.split())
+print(dividido)
+print(dividido[0])
+print(dividido[1][3])
